@@ -7,7 +7,7 @@ body {
 .container-one {
     display: flex;
     flex-direction: column;
-    background-color: #4c5b70;
+    background-color: #1f2937;
     padding: 10px 100px 0px 100px;
 }
 
@@ -18,10 +18,16 @@ header {
 }
 
 
+header .header-para {
+    color: #e5e7eb;
+}
+
+
 .header-left img {
     width: 50px;
     height: 50px;
-    color: #e5e7eb;
+    color: #4c5b70;
+
 }
 
 .header-right a {
@@ -33,19 +39,25 @@ header {
 
 
 .img-header-side {
-    width: 500px;
-    height: 200px;
+    width: 400px;
+    height: auto;
+    max-width: 100%;
+
 }
 
 
 .header-elements {
     display: flex;
+    font-size: 18px;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: #e5e7eb;
 }
 
 .header-h1 {
-    color: #e5e7eb;
+    color: #f9faf8;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 
@@ -55,5 +67,147 @@ header {
     font-weight: bold;
     border: 0;
     padding: 10px 20px 10px 20px;
+    border-radius: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px 100px 100px 100px;
+    align-items: center;
+
+}
+
+
+.header-two {
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+
+
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+
+.cards p {
+    color: #1F2937;
+}
+
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: #3882F6;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 100px 0px 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.aurelius {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+
+}
+
+
+
+
+
+
+
+
+.container-four {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    margin: 0;
+}
+
+
+
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+
+
+}
+
+
+.bottom-header {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+
+}
+
+
+.bottom-text {
+    font-size: 15px;
+    color: #e5e7eb;
+
+}
+
+
+.bottom-sign {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: white 2px;
+    border-style: solid;
+    padding: 5px 40px 5px 40px;
     border-radius: 10%;
 }
